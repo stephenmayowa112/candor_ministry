@@ -6,7 +6,7 @@ import MobileMenu from './MobileMenu'
 export default function Navbar() {
   return (
     <header className="border-b border-gray-200 bg-white">
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-6xl mx-auto">
         <nav className="px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
           {/* Logo */}
           <Link href="/" className="text-2xl font-bold text-blue-900">
