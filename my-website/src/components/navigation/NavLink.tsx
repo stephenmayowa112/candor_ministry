@@ -19,8 +19,8 @@ export default function NavLink({ href, children }: NavLinkProps) {
       className={`
         px-3 py-2 text-base transition-colors duration-200
         ${isActive 
-          ? 'text-blue-900 font-semibold' 
-          : 'text-gray-700 hover:text-blue-900'
+          ? 'text-gray-700 hover:text-blue-900' 
+          : 'text-blue-900 font-semibold'
         }
       `}
     >

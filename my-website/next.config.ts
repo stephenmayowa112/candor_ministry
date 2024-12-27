@@ -6,10 +6,10 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,  // Disable image optimization if needed
     domains: ['localhost'],
-    path: '/my-website/_next/image',
+    path: '/_next/image',
   },
   // Handle custom base path if applicable
-  basePath: '/my-website',
+  // basePath: '/my-website',
 };
 
 export default nextConfig;
