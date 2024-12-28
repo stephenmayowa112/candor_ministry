@@ -6,7 +6,7 @@ export default function DownloadBanner() {
     <section className="bg-[#18217A] text-white py-16 px-4">
       <div className="max-w-4xl mx-auto text-center space-y-6">
         <h2 className="text-3xl md:text-4xl lg:text-5xl font-light leading-tight">
-          God's Word Will Change<br />Your Life Forever!
+          God&apos;s Word Will Change<br />Your Life Forever!
         </h2>
         
         <div className="pt-4">
