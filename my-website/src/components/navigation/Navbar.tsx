@@ -1,7 +1,9 @@
 // src/components/navigation/Navbar.tsx
+"use client"
 import Link from 'next/link'
-import NavLink from './NavLink'
-import MobileMenu from './MobileMenu'
+import { NavLink } from './NavLink'
+import { MobileMenu } from './MobileMenu'
+import React from 'react'
 
 export default function Navbar() {
   return (
