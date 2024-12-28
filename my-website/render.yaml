@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: my-website
+    name: candor_ministry
     env: node
     buildCommand: npm install && npm run build
     startCommand: npm start
