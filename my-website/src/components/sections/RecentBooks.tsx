@@ -13,27 +13,52 @@ const books: Book[] = [
   {
     id: '1',
     title: 'THE GAZA-ISRAELI CONFLICT',
-    image: '/images/books/gaza-israeli-conflict.jpg',
+    image: '/images/A 3.png',
     slug: 'gaza-israeli-conflict'
   },
   {
     id: '2',
     title: 'TWO SERMONS, TWO SUMMITS, TWO DESTINIES.',
-    image: '/images/books/two-sermons.jpg',
+    image: '/images/B 1.png',
     slug: 'two-sermons'
   },
   {
     id: '3',
     title: 'BETWEEN MUHAMMAD AND JESUS, A MATTER OF GREATNESS',
-    image: '/images/books/between-muhammad-jesus.jpg',
+    image: '/images/C 1.png',
     slug: 'between-muhammad-jesus'
   },
   {
     id: '4',
     title: 'ISLAM, AN ARABIAN CHRISTIAN REFORMATION.',
-    image: '/images/books/islam-reformation.jpg',
+    image: '/images/e.png',
     slug: 'islam-reformation'
+  },
+  {
+    id: '5',
+    title: 'BEAR THE CROSS AND WEAR THE CROWN.',
+    image: '/images/f.png',
+    slug: 'cross-and-crown'
+  },
+{
+    id: '6',
+    title: 'THE OTHER ANTI-SEMATISM.',
+    image: '/images/g.png',
+    slug: 'anti-semitism'
+  },
+{
+    id: '7',
+    title: 'TRUE ISLAM: LOST IN TRANSLATION.',
+    image: '/images/h.png',
+    slug: 'true-islam'
+  },
+{
+    id: '8',
+    title: 'THE CRUSADES Motives, Methods & Moments.',
+    image: '/images/i.png',
+    slug: 'the-crusades'
   }
+
 ]
 
 export default function RecentBooks() {
