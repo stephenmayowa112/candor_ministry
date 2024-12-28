@@ -91,6 +91,14 @@ export default function MobileMenu() {
           </nav>
         </div>
       )}
+    {isOpen && (
+        <div 
+          className="fixed inset-0 bg-black/20 z-30"
+          onClick={toggleMenu}
+          aria-hidden="true"
+        />
+      )}
+
     </div>
   )
 }
