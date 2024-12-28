@@ -8,8 +8,7 @@ const nextConfig: NextConfig = {
     domains: ['localhost'],
     path: '/_next/image',
   },
-  // Handle custom base path if applicable
-  // basePath: '/my-website',
+  
 };
 
 export default nextConfig;
