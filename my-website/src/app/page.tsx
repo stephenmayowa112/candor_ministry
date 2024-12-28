@@ -12,8 +12,8 @@ export default function Home() {
       <Hero />
       <DownloadBanner />
       <RecentBooks />
-      <RecentAudioVisuals />
       <SupportOptions />
+      <RecentAudioVisuals />
     </>
   )
 }
