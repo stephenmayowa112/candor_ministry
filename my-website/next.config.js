@@ -1,4 +1,4 @@
-/** @type {import('next').NextConfig} */ // Important: Add this JSDoc comment for type checking/autocompletion
+/** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
     unoptimized: true,
@@ -7,4 +7,4 @@ const nextConfig = {
   },
 };
 
-module.exports = nextConfig; // Use module.exports for CommonJS
+module.exports = nextConfig; 
