@@ -81,12 +81,12 @@ export default function RecentBooks() {
         rotate-y-3 hover:rotate-y-0
         transition-all duration-300 ease-out
         group-hover:scale-102 group-hover:shadow-xl">
-                <div className="relative h-64 w-full">
+                <div className="relative h-48 w-full p-2">
                   <Image
                     src={book.image}
                     alt={book.title}
                     fill
-                    className="object-cover"
+                    className="object-contain rounded-md"
                   />
                 </div>
                 <div className="bg-[#18217A] text-white p-4 text-center">
