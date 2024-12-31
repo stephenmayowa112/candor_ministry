@@ -11,7 +11,7 @@ export default function MobileMenu() {
   const toggleMenu = () => setIsOpen(!isOpen)
 
   return (
-    <div className="md:hidden">
+    <div className="md:hidden z-30">
       {/* Mobile Menu Button */}
       <button
         onClick={toggleMenu}
