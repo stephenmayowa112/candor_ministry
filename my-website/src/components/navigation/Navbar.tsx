@@ -9,14 +9,14 @@ export default function Navbar() {
   return (
     <header className="border-b border-gray-200 bg-white">
       <div className="max-w-6xl mx-auto">
-        <nav className="px-4 sm:px-6 lg:px-8 h-14 flex items-center justify-between">
+        <nav className="px-4 sm:px-6 lg:px-8 h-12 flex items-center justify-between">
           {/* Logo */}
-          <Link href="/" className="text-md font-bold text-[#18217A]">
+          <Link href="/" className="text-sm font-bold text-[#18217A]">
             Candor Ministries
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center space-x-6">
+          <div className="hidden md:flex items-center space-x-4">
             <NavLink href="/home">Home</NavLink>
             <NavLink href="/books">Books</NavLink>
             <NavLink href="/audio-visuals">Audio-Visuals</NavLink>
