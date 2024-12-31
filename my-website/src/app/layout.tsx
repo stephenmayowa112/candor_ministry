@@ -21,10 +21,10 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <Navbar />
-        <main>{children}</main>
+        <main className="pt-12">{children}</main>
          <Footer />
         <WhatsAppChat 
-          phoneNumber="+2348130864548" // Replace with your actual WhatsApp number
+          phoneNumber="+2348130864548" // Your WhatsApp Business number
           welcomeMessage="Welcome to Candor Ministries! How can we assist you today?"
         />
       </body>

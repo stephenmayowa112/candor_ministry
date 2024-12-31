@@ -7,16 +7,16 @@ import React from 'react'
 
 export default function Navbar() {
   return (
-    <header className="border-b border-gray-200 bg-white">
+    <header className="fixed top-0 left-0 right-0 border-b border-gray-200 bg-white/95 backdrop-blur-sm z-50">
       <div className="max-w-6xl mx-auto">
         <nav className="px-4 sm:px-6 lg:px-8 h-12 flex items-center justify-between">
           {/* Logo */}
-          <Link href="/" className="text-sm font-bold text-[#18217A]">
+          <Link href="/" className="text-md font-bold text-[#18217A]">
             Candor Ministries
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center space-x-4">
+          <div className="hidden md:flex items-center space-x-1">
             <NavLink href="/home">Home</NavLink>
             <NavLink href="/books">Books</NavLink>
             <NavLink href="/audio-visuals">Audio-Visuals</NavLink>
@@ -25,14 +25,13 @@ export default function Navbar() {
             <NavLink href="/upcoming-events">Upcoming Events</NavLink>
             <NavLink href="/links">Links</NavLink>
             <NavLink href="/contact-us">Contact Us</NavLink>
-          </div>
 
-          {/* Donate Button */}
+            {/* Donate Button */}
           <div className="hidden md:block">
             <Link
               href="/donate"
               className="
-                bg-[#18217A] text-white px-6 py-2 rounded-md
+                bg-[#18217A] text-white px-2 py-2 rounded-full  
                 hover:bg-blue-800 transition-colors duration-200
                 text-sm font-medium
               "
@@ -40,6 +39,11 @@ export default function Navbar() {
               Donate
             </Link>
           </div>
+
+
+          </div>
+
+          
 
           {/* Mobile Menu */}
           <MobileMenu />
