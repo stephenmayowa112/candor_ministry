@@ -17,10 +17,10 @@ export default function NavLink({ href, children }: NavLinkProps) {
     <Link 
       href={href}
       className={`
-        px-3 py-4 text-xs transition-colors duration-200
+        px-3 py-4 text-xs font-bold transition-colors duration-200
         ${isActive 
           ? 'text-gray-700 hover:text-blue-900' 
-          : 'text-blue-900 font-semibold'
+          : 'text-blue-900'
         }
       `}
     >
