@@ -63,7 +63,7 @@ const books: Book[] = [
 
 export default function RecentBooks() {
   return (
-    <section className="py-16 px-4 bg-gray-50">
+    <section id="books" className="py-16 px-4 bg-gray-50">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-3xl md:text-4xl text-[#18217A] text-center mb-12">
           Recent Books
