@@ -69,14 +69,18 @@ export default function RecentBooks() {
           Recent Books
         </h2>
         
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
           {books.map((book) => (
             <Link 
               key={book.id}
               href={`/books/${book.slug}`}
-              className="group"
+              className="group w-full max-w-[250px] mx-auto"
             >
-              <div className="bg-white rounded-lg shadow-lg overflow-hidden transition-transform duration-200 group-hover:scale-105">
+              <div className="bg-white rounded-lg shadow-lg overflow-hidden 
+        transform perspective-1000 
+        rotate-y-3 hover:rotate-y-0
+        transition-all duration-300 ease-out
+        group-hover:scale-102 group-hover:shadow-xl">
                 <div className="relative h-64 w-full">
                   <Image
                     src={book.image}
