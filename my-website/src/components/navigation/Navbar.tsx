@@ -11,7 +11,7 @@ export default function Navbar() {
       <div className="max-w-6xl mx-auto">
         <nav className="px-4 sm:px-6 lg:px-8 h-12 flex items-center justify-between">
           {/* Logo */}
-          <Link href="/" className="text-md font-bold text-[#18217A]">
+          <Link href="/" className="text-xl font-bold text-[#18217A]">
             Candor Ministries
           </Link>
 
@@ -31,9 +31,9 @@ export default function Navbar() {
             <Link
               href="/donate"
               className="
-                bg-[#18217A] text-white px-2 py-2 rounded-full  
+                bg-[#18217A] text-white px-3 py-2 rounded-full  
                 hover:bg-blue-800 transition-colors duration-200
-                text-sm font-medium
+                text-sm font-small
               "
             >
               Donate
