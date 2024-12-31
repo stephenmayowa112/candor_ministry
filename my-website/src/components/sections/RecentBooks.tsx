@@ -19,19 +19,19 @@ const books: Book[] = [
   {
     id: '2',
     title: 'TWO SERMONS, TWO SUMMITS, TWO DESTINIES.',
-    image: '/images/B 1.png',
+    image: '/images/e.png',
     slug: 'two-sermons'
   },
   {
     id: '3',
     title: 'BETWEEN MUHAMMAD AND JESUS, A MATTER OF GREATNESS',
-    image: '/images/C 1.png',
+    image: '/images/g.png',
     slug: 'between-muhammad-jesus'
   },
   {
     id: '4',
     title: 'ISLAM, AN ARABIAN CHRISTIAN REFORMATION.',
-    image: '/images/e.png',
+    image: '/images/h.png',
     slug: 'islam-reformation'
   },
   {
@@ -43,19 +43,19 @@ const books: Book[] = [
 {
     id: '6',
     title: 'THE OTHER ANTI-SEMATISM.',
-    image: '/images/g.png',
+    image: '/images/i.png',
     slug: 'anti-semitism'
   },
 {
     id: '7',
     title: 'TRUE ISLAM: LOST IN TRANSLATION.',
-    image: '/images/h.png',
+    image: '/images/B 1.png',
     slug: 'true-islam'
   },
 {
     id: '8',
     title: 'THE CRUSADES Motives, Methods & Moments.',
-    image: '/images/i.png',
+    image: '/images/C 1.png',
     slug: 'the-crusades'
   }
 
