@@ -1,4 +1,5 @@
 // src/components/sections/RecentBooks.tsx
+import { Url } from 'next/dist/shared/lib/router/router'
 import Image from 'next/image'
 import Link from 'next/link'
 
@@ -7,6 +8,7 @@ interface Book {
   title: string
   image: string
   slug: string
+  links: Url
 }
 
 const books: Book[] = [
@@ -14,49 +16,58 @@ const books: Book[] = [
     id: '1',
     title: 'THE GAZA-ISRAELI CONFLICT',
     image: '/images/A 3.png',
-    slug: 'gaza-israeli-conflict'
+    slug: 'gaza-israeli-conflict',
+    links: "https://www.amazon.com/Two-Sermons-Summits-Destinies-Messengers-ebook/dp/B09TS9B28D?ref_=ast_author_dp"
   },
   {
     id: '2',
     title: 'TWO SERMONS, TWO SUMMITS, TWO DESTINIES.',
     image: '/images/e.png',
-    slug: 'two-sermons'
+    slug: 'two-sermons',
+    links: "https://www.amazon.com/Two-Sermons-Summits-Destinies-Messengers-ebook/dp/B09TS9B28D?ref_=ast_author_dp"
   },
   {
     id: '3',
     title: 'BETWEEN MUHAMMAD AND JESUS, A MATTER OF GREATNESS',
     image: '/images/g.png',
-    slug: 'between-muhammad-jesus'
+    slug: 'between-muhammad-jesus',
+    links: "https://www.amazon.com/Two-Sermons-Summits-Destinies-Messengers-ebook/dp/B09TS9B28D?ref_=ast_author_dp"
   },
   {
     id: '4',
     title: 'ISLAM, AN ARABIAN CHRISTIAN REFORMATION.',
     image: '/images/h.png',
-    slug: 'islam-reformation'
+    slug: 'islam-reformation',
+    links: "https://www.amazon.com/ISLAM-ARABIAN-CHRISTIAN-REFORMATION-Success-ebook/dp/B09TTJFTN3?ref_=ast_author_dp"
   },
   {
     id: '5',
     title: 'BEAR THE CROSS AND WEAR THE CROWN.',
     image: '/images/f.png',
-    slug: 'cross-and-crown'
+    slug: 'cross-and-crown',
+    links: "https://www.amazon.com/Bear-Cross-Then-Wear-Crown-ebook/dp/B0B7GVQPRY?ref_=ast_author_dp"
   },
 {
     id: '6',
     title: 'THE OTHER ANTI-SEMATISM.',
     image: '/images/i.png',
-    slug: 'anti-semitism'
+    slug: 'anti-semitism',
+    links: "https://www.amazon.com/Other-Anti-Semitism-Emil-Saleem-Shehadeh/dp/1784552038?ref_=ast_author_dp"
   },
 {
     id: '7',
     title: 'TRUE ISLAM: LOST IN TRANSLATION.',
     image: '/images/B 1.png',
-    slug: 'true-islam'
+    slug: 'true-islam',
+    links: "https://www.amazon.com/Two-Sermons-Summits-Destinies-Messengers-ebook/dp/B09TS9B28D?ref_=ast_author_dp"
+    
   },
 {
     id: '8',
     title: 'THE CRUSADES Motives, Methods & Moments.',
     image: '/images/C 1.png',
-    slug: 'the-crusades'
+    slug: 'the-crusades',
+    links: "https://www.amazon.com/Two-Sermons-Summits-Destinies-Messengers-ebook/dp/B09TS9B28D?ref_=ast_author_dp"
   }
 
 ]
@@ -73,7 +84,7 @@ export default function RecentBooks() {
           {books.map((book) => (
             <Link 
               key={book.id}
-              href={`/books/${book.slug}`}
+              href={`${book.links}`}
               className="group w-full max-w-[250px] mx-auto"
             >
               <div className="bg-white rounded-lg shadow-lg overflow-hidden 
